@@ -12,6 +12,6 @@ int main()
     }
     l.erase(l.begin());
     //all methods are same as dequeue but there is traversing ..not direct access like using at. method
-    
+
 return 0;
 }
