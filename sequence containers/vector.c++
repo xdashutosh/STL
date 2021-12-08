@@ -26,6 +26,12 @@ v.clear();
 cout<<endl<<v.size()<<endl;
 cout<<v.capacity()<<endl;
 
+//copying a vector into another one
+vector<int> copied(v);
+for (int i:copied)
+{
+    cout<<i;
+}
 
 return 0;
 }
